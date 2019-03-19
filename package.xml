@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>cwm_msgs</name>
+  <version>0.1.0</version>
+  <description>The cwm_msgs package</description>
+  <maintainer email="hitls123@naver.com">t</maintainer>
+  <license>Developed by Shin</license>
+  <url type="website">https://blog.naver.com/hitls123</url>
+  <author email="hitls123@naver.com">SeungRyeol Shin</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+  <export>
+
+  </export>
+</package>
